@@ -1,0 +1,425 @@
+.slide-subfrase{
+    color:#D63138;
+}
+.cid-qs02Ac8trN p{
+    margin: 0 0 30px;
+    line-height: 1.6;
+    color:white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+}
+.cid-qshQcNjzrZ p {
+    margin: 0 0 30px;
+    line-height: 1.6;
+    color:black;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 200;
+}
+.cid-qshQcNjzrZ h2 {
+    margin-top: 1em;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.default{
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+.subtitulo-borda::before{
+    border-bottom: 1px solid #D63138;
+    content: "";
+    height: 0.8em;
+    position: absolute;
+    right: 0;
+    width: 65%;
+}
+.subtitulo-borda{
+    color: #D63138;
+}
+.subtitulo{
+    color: #D63138;
+    text-transform: uppercase;
+}
+
+.about-gym-area{
+    background: #f1f1f1 url(../images/about-gym-bg.png) no-repeat fixed left center / contain;
+    position: relative;
+}
+.fityourself-area{
+    background: url(../images/about-gym-mulher.jpg) no-repeat;
+	
+    background-size:cover;
+    
+    background-attachment:fixed;
+	
+    
+}
+.about-gym-area p{
+    font-size: 15px;
+    color: #484848;
+    margin: 3em 0 20px;
+    line-height: 160%;
+    text-align: initial;
+}
+
+.fityourself-area h1{
+    text-transform: uppercase;
+    color: white;
+}
+
+.fityourself-area p{
+    font-size: 15px;
+    color: #484848;
+    margin: 3em 0 20px;
+    line-height: 160%;
+    text-align: initial;
+    color: white;
+}
+.px-2{
+    color: white;
+}
+.socicon-twitter:before{
+    color: white;
+}
+.socicon-facebook:before{
+    color: white;
+}
+.socicon-googleplus:before{
+    color: white;
+}
+.socicon-linkedin:before{
+    color: white;
+}
+.cid-qs5GG4XGRU .plan.favorite{
+    background-color: #d63138;
+}
+.cid-qs5GG4XGRU .plan.promo{
+    background-color: #2e323d;
+}
+
+.price{
+    background-color: #2e323d;
+    color: #fff;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 20px 17px;
+    text-transform: uppercase;
+}
+.price-promo{
+    background-color: #d63138;
+    color: #fff;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 20px 17px;
+    text-transform: uppercase;
+}
+
+
+/*botão*/
+.button {
+    background-color: #D63138;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    list-style: outside none none;
+    margin: 0 3px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all .5s ease;
+    
+}
+
+
+
+
+/*float*/
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+/*Shutter In Vertical*/
+.hvr-shutter-in-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  background: #484848;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-shutter-in-vertical:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  border-radius: 5px;
+}
+.hvr-shutter-in-vertical:hover, .hvr-shutter-in-vertical:focus, .hvr-shutter-in-vertical:active {
+  color: white;
+}
+.hvr-shutter-in-vertical:hover:before, .hvr-shutter-in-vertical:focus:before, .hvr-shutter-in-vertical:active:before {
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+}
+
+
+/*tabela*/
+
+
+.schedule-title {
+    background-color: #2e323d;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.schedule-timing {
+    background-color: #D63138;
+    padding: 3em;
+}
+
+
+
+.schedule-timing h2 {
+    color: #fff;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.schedule-timing li {
+    border-top: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+    list-style: outside none none;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+.schedule-timing ul li span {
+    float: left;
+}
+.schedule-timing ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*fim tabela*/
+
+/*form*/
+/*Media Queries*/
+@media(max-width:768px){
+    #description{
+        margin-bottom:10% !important;
+    }
+    #formInnerWrapper{
+        margin-top:15% !important;
+    }
+    .formInput{
+        margin-bottom:15% !important;
+    }
+    #materialForm{
+        margin-top:5% !important;
+    }
+}
+
+@media(max-width:480px){
+    .formInput{
+        margin-bottom:15% !important;
+    }
+}
+
+
+.flatButton{
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,.4);
+    border:none;
+    text-align:center;
+}
+
+.fa-check{
+    float: right;
+    margin-left:85%;
+    position: absolute;
+    z-index:0;
+    transition: all .2s;
+    color: #1DE9B6 !important;
+}
+#formOutterWrapper{
+    margin-top:0px;
+    padding:0;
+}
+#formInnerWrapper{
+    margin-top:0px;
+    
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 2px;
+    height:500px;
+}
+#materialForm{
+    margin-top:0%;
+}
+
+#description{
+    margin-bottom:5%;
+}
+
+
+input, label{
+    display:block;
+}
+label{
+    color:white;
+    position:absolute;
+    font-size:20px;
+    font-weight:400;
+    transition: all .2s
+}
+input{
+    margin-top:10px;
+}
+.formInput{
+    background-color:transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:2px solid #D63138;
+    
+    width:100%;
+    margin-bottom:5%;
+    color:white;
+
+}
+
+input:focus{
+    outline:none;
+    color:black;
+    border-bottom:2px solid #8C8C8C;
+    -webkit-transition:border-bottom .5s;
+    -moz-transition:border-bottom .5s;
+    -ms-transition:border-bottom .5s;
+     -o-transition:border-bottom .5s;
+        transition:border-bottom .5s;
+}
+.actives{
+    transform:translateY(-140%);
+    font-size:14px;
+}
+
+#submit:hover{
+    background-color:#18E997;
+}
+#close{
+    display:block;
+    position:absolute;
+    cursor:pointer;
+    left:5px;
+    z-index:999;
+    margin-right:0;
+    padding-right:0;
+    padding-left:0;
+    color:#ffffff;
+}
+#close:hover{
+    color:#c0392b;
+}
+/*fech form*/
