@@ -1,0 +1,68 @@
+.exe1{
+    padding: 100px;
+}
+
+/*svg cadeado*/
+
+#logoCadeado{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 5em;
+    width: 5em;
+    fill:none;
+    stroke:#000000;
+    stroke-width:4;
+    stroke-miterlimit:2;
+}
+
+/*svg custo beneficio*/
+
+#logoCusto{
+    display: block;
+    margin: 1px auto;
+    text-align: center;
+    height: 5em;
+    width: 5em;
+    fill: #eeeeed;
+    stroke:#000000;
+    stroke-width:5;
+    stroke-miterlimit:5;
+}
+
+
+
+#logoDinheiro{
+    display: block;
+    margin: 1px auto;
+    text-align: center;
+    height: 5em;
+    width: 5em;
+    fill:none;
+    stroke:#000000;
+    stroke-width:10;
+    stroke-miterlimit:5;
+}
+			
+@-webkit-keyframes dashDinheiro{
+    from{
+        stroke-dashoffset: 3300;
+    }to{
+        stroke-dashoffset:0;
+
+    }
+}
+
+.anime-svg{
+    opacity: 0;    
+}
+
+.anime-svg-start{
+    opacity: 1;
+    stroke-dasharray: 3300;
+    stroke-dashoffset: 0;
+    -webkit-animation: dashDinheiro 8s linear forwards;
+    -o-animation:  dashDinheiro 8s linear forwards;
+    -moz-animation:  dashDinheiro 8s linear forwards;
+    animation: dashDinheiro 8s linear forwards;
+}

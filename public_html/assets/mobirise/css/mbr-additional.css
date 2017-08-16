@@ -5,7 +5,7 @@
 
 
 body {
-  font-family: Rubik;
+ font-family: 'Sintony', sans-serif;
   font-style: normal;
   line-height: 1.5;
 }
@@ -24,37 +24,38 @@ a{
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Sintony', sans-serif;
   font-size: 4.25rem;
+  font-weight: 800
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Sintony', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Sintony', sans-serif;
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Sintony', sans-serif;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Sintony', sans-serif;
   font-size: 1rem;
-  text-transform: uppercase;
+ 
 }
 .display-7 > .mbr-iconfont {
   font-size: 1.6rem;
@@ -105,7 +106,7 @@ a{
   word-break: break-word;
 }
 .navbar .btn {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Sintony', sans-serif;
   font-size: 1rem;
 }
 .navbar .btn > .mbr-iconfont {
@@ -600,7 +601,7 @@ a:hover {
   opacity: 0 !important;
 }
 /* Others*/
-.note-check a[data-value=Rubik] {
+.note-check a[data-value=Sintony] {
   font-style: normal;
 }
 .mbr-arrow a {
@@ -1078,12 +1079,12 @@ pre {
 .cid-qs5AV1h9b1 .video-block {
   margin: auto;
 }
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .cid-qs5AV1h9b1 .video-block {
     width: 100% !important;
   }
-}
-.cid-qs5DegMBcu {
+}*/
+.cid-qs5DegMBcu { 
   padding-top: 0px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/background5.jpg");
@@ -1319,7 +1320,7 @@ pre {
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
 }
 .cid-qs5GG4XGRU .price-figure {
-  font-weight: 700;
+  font-weight: 500;
   color: #fff;
 }
 .cid-qs5GG4XGRU .price-value {
@@ -1333,8 +1334,8 @@ pre {
   }
 }
 .cid-qs5FW07P56 {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-color: #fafafa;
 }
 .cid-qs5FW07P56 h3 {
@@ -1574,3 +1575,12 @@ pre {
 .cid-qshQcNjzrZ .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
+
+.cid-qsp7ZKCikp {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff; 
+}
+.cid-qsp7ZKCikp .mbr-section-subtitle {
+  color: #767676;
+} 

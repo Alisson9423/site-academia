@@ -607,6 +607,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",

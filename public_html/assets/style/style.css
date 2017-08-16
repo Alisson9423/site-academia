@@ -31,14 +31,7 @@
     text-transform: uppercase;
     margin-bottom: 1em;
 }
-.subtitulo-borda::before{
-    border-bottom: 1px solid #D63138;
-    content: "";
-    height: 0.8em;
-    position: absolute;
-    right: 0;
-    width: 65%;
-}
+
 .subtitulo-borda{
     color: #D63138;
 }
@@ -272,7 +265,7 @@
 
 .schedule-timing {
     background-color: #D63138;
-    padding: 3em;
+    padding: 2em;
 }
 
 
@@ -286,7 +279,7 @@
     text-transform: uppercase;
 }
 
-.schedule-timing li {
+.schedule-timing div {
     border-top: 1px solid #fff;
     color: #fff;
     font-size: 15px;
@@ -296,10 +289,10 @@
     text-align: center;
     
 }
-.schedule-timing ul li span {
+.schedule-timing .ul div span {
     float: left;
 }
-.schedule-timing ul{
+.schedule-timing .ul{
     margin: 0px;
     padding: 0px;
 }
@@ -423,3 +416,268 @@ input:focus{
     color:#c0392b;
 }
 /*fech form*/
+
+/*svg*/
+#logoCoracao{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 5em;
+    width: 5em;
+    fill:none;
+    stroke:#D63138;
+    stroke-width:20;
+    stroke-miterlimit:10;
+}
+
+#logoMusculo{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 5em;
+    width: 5em;
+    fill:none;
+    stroke:#D63138;
+    stroke-width:3;
+    stroke-miterlimit:3;
+}
+
+#logoBoxe{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 5em;
+    width: 5em;
+    fill:none;
+    stroke:#D63138;
+    stroke-width:10;
+    stroke-miterlimit:5;
+}
+
+#logoCintura{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 5em;
+    width: 5em;
+    fill:none;
+    stroke:#D63138;
+    stroke-width:10;
+    stroke-miterlimit:20;
+    
+}
+
+@-webkit-keyframes animeStart{
+    from{
+        stroke-dashoffset: 4000;
+        
+    }to{
+        stroke-dashoffset:0;
+        
+
+    }
+}
+
+/*.coracao,.musculo,.boxe,.cintura{
+    opacity: 0;    
+}*/
+.coracao{
+    opacity:0; 
+}
+.musculo{
+    opacity:0; 
+}
+.boxe{
+    opacity:0; 
+}
+.cintura{
+    opacity:0; 
+}
+.anime-svg-coracao{
+    opacity: 1;
+    stroke-dasharray: 3300;
+    stroke-dashoffset: 0;
+    -webkit-animation: animeStart 8s linear forwards;
+    -o-animation:  animeStart 8s linear forwards;
+    -moz-animation:  animeStart 8s linear forwards;
+    animation: animeStart 8s linear forwards;
+}
+
+.anime-svg-musculo{
+    opacity: 1;
+    stroke-dasharray: 5000;
+    stroke-dashoffset: 0;
+    -webkit-animation: animeMusculo 10s linear forwards;
+    -o-animation:  animeMusculo 10s linear forwards;
+    -moz-animation:  animeMusculo 10s linear forwards;
+    animation: animeMusculo 10s linear forwards;
+}
+
+@-webkit-keyframes animeMusculo{
+    from{
+        stroke-dashoffset: 5000;
+        
+    }to{
+        stroke-dashoffset: 3500;
+    }
+}
+
+
+.anime-svg-boxe{
+    opacity: 1;
+    stroke-dasharray: 5000;
+    stroke-dashoffset: 0;
+    -webkit-animation: animeBoxe 10s linear forwards;
+    -o-animation:  animeBoxe 10s linear forwards;
+    -moz-animation:  animeBoxe 10s linear forwards;
+    animation: animeBoxe 10s linear forwards;
+}
+
+@-webkit-keyframes animeBoxe{
+    from{
+        stroke-dashoffset: 5000;
+        
+    }to{
+        stroke-dashoffset: 500;
+    }
+}
+.anime-svg-cintura{
+    opacity: 1;
+    stroke-dasharray: 5000;
+    stroke-dashoffset: 0;
+    -webkit-animation: animeCintra 10s linear forwards;
+    -o-animation:  animeCintra 10s linear forwards;
+    -moz-animation:  animeCintra 10s linear forwards;
+    animation: animeCintra 10s linear forwards;
+}
+
+@-webkit-keyframes animeCintra{
+    from{
+        stroke-dashoffset: 5000;
+        
+    }to{
+        stroke-dashoffset: 500;
+    }
+}
+
+/*video*/
+
+.video-block {
+    width:37%; float: right; 
+    
+  }
+ 
+@media only screen and (min-width: 768px ) and (max-width:959px){
+    .video-block {
+    width: 100% !important;
+  }
+  .mbr-figure h1{ 
+        text-align: left !important; 
+        
+    } 
+  .mbr-figure p{ 
+        color:white;
+        background: rgba(0,0,0,0.5);
+        padding: 20px;
+    }  
+}
+
+@media only screen and (max-width: 767px ){
+    .about-gym-area{ 
+        background: #eee; 
+    }
+    .about-gym-area h1{ 
+        text-align: left !important;
+        
+    } 
+    .video-block {
+        width: 100% !important;
+    }
+}
+
+/*slick*/
+
+html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+    
+    /*slide*/
+    .rslides {
+        position: relative;
+        list-style: none;
+        overflow: hidden;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  
+  .rslides_tabs {
+      text-align: center;
+      margin-top: 1em;
+  }
+  .rslides_tabs li {
+      display: inline;
+      margin: 0 5px;
+      
+  }
+  .rslides_tabs li a{
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #D63138;
+      color: #D63138;
+      border-radius: 20px;
+      overflow: hidden;
+      text-indent: -200px;
+  }
+  
+  .rslides_tabs li.rslides_here a{
+      background-color: #2e323d;
+      color: #2e323d;
+  }
