@@ -681,3 +681,36 @@ html, body {
       background-color: #2e323d;
       color: #2e323d;
   }
+  
+  /*galeria botões*/
+  
+  .boao-ul{
+      text-align: center;
+      margin: 1em;
+  }
+  .boao-ul li{
+      
+      
+      background-color: #D63138;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    
+    font-size: 14px;
+    font-weight: 700;
+    list-style: outside none none;
+    margin: 0 3px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all .5s ease;
+  }
+  .boao-ul li a{
+      display: inline-block;
+      
+      color: #D63138;
+  }
+  .img-width-70{
+        width: 70%;
+        margin: 2vw;
+  }

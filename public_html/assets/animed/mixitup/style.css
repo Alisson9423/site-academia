@@ -38,48 +38,18 @@ body {
     background: #3f3f3f;
 }
 
-.control[data-sort*=":desc"]:after {
-    transform:  translateY(-4px) rotate(-135deg);
-}
 
-.mixitup-control-active {
-    background: #393939;
-}
-
-.control[data-filter="all"] {
-    background: #fff;
-}
-
-.control[data-filter=".green"] {
-    background: #91e6c7;
-}
-
-.control[data-filter=".blue"] {
-    background: #5ecdde;
-}
-
-.control[data-filter=".pink"] {
-    background: #d595aa;
-}
-
-.control[data-filter="none"] {
-    background: #2f2f2f;
-}
 
 /* Container
 ---------------------------------------------------------------------- */
 
-.container {
+.container-mix {
     padding: 16px;
     text-align: justify;
     font-size: 0.1px;
 }
 
-.container:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-}
+
 
 /* Target Elements
 ---------------------------------------------------------------------- */
@@ -98,23 +68,10 @@ body {
     position: relative;
 }
 
-.mix:before {
-    content: '';
-    display: inline-block;
-    padding-top: 56.25%;
-}
+ 
+ 
 
-.mix.green {
-    border-top-color: #91e6c7;
-}
 
-.mix.pink {
-    border-top-color: #d595aa;
-}
-
-.mix.blue {
-    border-top-color: #5ecdde;
-}
 
 .mix,
 .gap {
