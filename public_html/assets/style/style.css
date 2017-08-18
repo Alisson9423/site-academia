@@ -518,7 +518,7 @@ input:focus{
         stroke-dashoffset: 5000;
         
     }to{
-        stroke-dashoffset: 3500;
+        stroke-dashoffset: 3000;
     }
 }
 
@@ -695,11 +695,11 @@ html, body {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    
+    margin: 1vw;
     font-size: 14px;
     font-weight: 700;
     list-style: outside none none;
-    margin: 0 3px;
+    
     padding: 10px 20px;
     text-transform: uppercase;
     border-radius: 3px;
@@ -714,3 +714,6 @@ html, body {
         width: 70%;
         margin: 2vw;
   }
+  .mixitup-control-active {
+    background: #3f3f3f !important;
+}  

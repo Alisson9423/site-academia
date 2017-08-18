@@ -64,14 +64,6 @@ body {
     transform:  translateY(-4px) rotate(-135deg);
 }
 
-.mixitup-control-active {
-    background: #393939;
-}
-
-.mixitup-control-active[data-filter]:after {
-    background: transparent;
-}
-
 .control:first-of-type {
     border-radius: 3px 0 0 3px;
 }
